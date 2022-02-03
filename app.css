@@ -1,0 +1,116 @@
+ body { 
+    margin:0;
+    height: 120vh;
+    
+}
+
+#mainpicture {
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+     url(pictures/photo-1575444758702-4a6b9222336e.jpg);
+    background-size: cover;
+    
+    background-position: center;
+    
+}
+
+/* footer CSS ______________________________ */
+
+#footer{ 
+    width: 100%;
+    height: 4rem;
+    color:black;
+    background-color: white; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+ 
+}  
+
+#facebook{
+    width: 1.5rem;
+    
+    
+}
+
+#instagram{
+    width: 2.1rem;
+    position: relative;
+    top: 0.3em;
+   
+} 
+
+#endName{
+
+    font-size: 2.5rem;
+    font-family:'Satisfy', cursive ;
+}
+
+
+.logo {
+    transition: transform 0.2s;
+}
+
+.logo:hover {
+    transform: translateY(-3px);
+}
+
+@media (max-width: 500px) {
+  #phonenumbers{
+      display: none;
+  }
+}
+
+
+/* contact css ________________________ */
+
+#contactmain {
+    width: 100%;
+    height: 80vh;
+    background-image: url(pictures/photo-1529604278261-8bfcdb00a7b9.jpg);
+    background-size:cover;
+} #contactinfo {
+    width: 100%;
+    height: 40% ;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    
+}
+
+
+#info { 
+  
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 1em;
+}
+
+
+@media (max-width: 1054px ) {
+    #contactinfo {
+        height: 60%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #info, #map {
+        width: 80%;
+        font-size: 0.8em;
+        
+    }
+
+    #info {
+        margin-bottom:4rem ;
+    }
+
+
+}
+

@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.sliderimg {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 4rem;
+    
+
+}
+
+
+
+@media (max-width:750px) {
+    .sliderimg {
+        height:70vh;
+    }
+}
+
+
+
+@media (max-width:500px) {
+    .sliderimg {
+        height:55vh;
+    }
+}
